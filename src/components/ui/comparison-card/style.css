@@ -1,0 +1,45 @@
+.comparison-card {
+  padding: 20px;
+}
+
+.comparison-card-ferm {
+  background-color: #e1edce;
+}
+
+.comparison-card-shop {
+  background-color: #f8ddd7;
+}
+
+.comparison-card__header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 20px;
+  padding-bottom: 20px;
+}
+
+.comparison-card__image {
+  grid-row: span 2;
+}
+
+.comparison-card__label {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  width: 178px;
+  text-align: center;
+  margin: 0 0 6px 0;
+  padding: 3px 0;
+}
+
+.comparison-card__label-ferm {
+  background-color: #88aa4d;
+}
+
+.comparison-card__label-shop {
+  background-color: #f75531;
+}
+
+.comparison-card__text {
+  margin: 0;
+}
