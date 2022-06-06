@@ -8,6 +8,7 @@ export const defaultTheme = {
   indent: "20px",
   colorForButton: "#fc9b27",
   colorForButtonHover: "#fc7427",
+  colorForAbout: "#d8ecfe",
   colorWhite: "#ffffff",
   pageWidth: "1280px"
 };
