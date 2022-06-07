@@ -1,7 +1,8 @@
 import { createGlobalStyle } from "styled-components";
-//import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
 export const GlobalStyle = createGlobalStyle`
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
 html {
   height: 100%;
   margin: 0;

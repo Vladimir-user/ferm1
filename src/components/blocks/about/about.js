@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "/src/components/ui/title/title";
+import Title, { TitleSize } from "/src/components/ui/title/title";
 import { StyledAbout, AboutWrapper, AboutText } from "./styles";
 //import "./style.css";
 
@@ -7,7 +7,9 @@ function About() {
   return (
     <StyledAbout>
       <AboutWrapper>
-        <Title>Магазин фермерских продуктов с доставкой</Title>
+        <Title size={TitleSize.H1}>
+          Магазин фермерских продуктов с доставкой
+        </Title>
         <AboutText>
           Все продукты изготавливаются под заказ. Фермеры начинают готовить
           продукты за день до отправки заказа клиентам. Именно поэтому мы
